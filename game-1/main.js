@@ -3,6 +3,8 @@
  
 
  $('.box0.start').click(function(e) {
+      for each click add an x
+      	box ++
       $('.box0.start').text("x");
 });
 
