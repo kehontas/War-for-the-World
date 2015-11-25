@@ -1,0 +1,21 @@
+h1 {
+	font-size: 100px;
+}
+
+.box0 {
+	background-color: green;
+	height: 30px;
+	border: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+
+}
+
+.box1 {
+	background-color: orange;
+	height: 30px;
+	border: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+}
