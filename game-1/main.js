@@ -28,19 +28,16 @@
 			// 	console.log("We are both here!");
 			// 	}
 			}
+		$("button").click(function handleClick(event){
+			location.reload();
+
 		});
-		// if player one reaches box0 finsh
-		// 	player one wins
-		// console.log player one wins
-		// else 
-		// 	player two wins
-
-	
-
-
+	});
+		
 }); 
 
-
+ // $("button").click(function handleClick(event){
+	// $("div.box").text("");
 
 //$('.start').click(function(e) {
 //     $('.start').text("x");
