@@ -5,7 +5,7 @@
 		var ply2 = 0;
 		
 		$(window).on("keypress", function handler(event) {
-			if (ply1 && ply2 === 7){
+			if (ply1 === 7 && ply2 === 7){
 				console.log("We are both here!");
 				}
 			else if (event.which === 97) {
@@ -23,13 +23,12 @@
 		 	    $(".box1").eq(ply2).text("O");
 				} else if (ply2 === 7){
 				console.log("Im here");
-					
+				}	
 			// }else if (ply1 && ply2 === 7){
 			// 	console.log("We are both here!");
 			// 	}
 			}
-		}
-	});
+		});
 		// if player one reaches box0 finsh
 		// 	player one wins
 		// console.log player one wins
