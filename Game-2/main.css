@@ -7,12 +7,13 @@ h3, h4{
 }
 
 .box0 {
+	
 	background-color: green;
 	height: 30px;
 	border: 1px solid black;
 	margin-left: 2px;
 	margin-right: 2px;
-	margin-bottom: 5px;
+	margin-bottom: 50px;
 
 }
 
@@ -36,6 +37,7 @@ button {
 
 body {
      margin: 0;
-     background: url(http://i1244.photobucket.com/albums/gg572/fitnessbeast1/Jumbotron/background.gif);
+     background: url(http://www.freewallpaperfullhd.com/wp-content/uploads/2015/06/wallpapers/matrix_world_map-wallpaper-1920x1200.jpg);	 
      background-size: 1440px 800px;
      background-repeat:no-repeatdisplay: compact;
+    
