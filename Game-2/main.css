@@ -2,8 +2,16 @@ h1 {
 	font-size: 100px;
 	text-align: center;
 }
-h3, h4{ 
+h3 { 
+	
+	color: white;
+	margin-top: 200px;
+	margin-left: 20px;
 	text-align: center;
+}
+h4 {
+	color: white;
+   text-align: center;
 }
 
 .box0 {
@@ -14,8 +22,10 @@ h3, h4{
 	margin-left: 2px;
 	margin-right: 2px;
 	margin-bottom: 50px;
+	margin-top: 5px;
 
 }
+
 
 .box1 {
 	background-color: orange;

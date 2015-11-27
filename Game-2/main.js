@@ -12,11 +12,11 @@
 				if (ply1 < 9) {
 					$(".box0").eq(ply1).text("");
 			    	ply1 ++;
-			    	$(".box0").eq(ply1).text("X");
+			    	$(".box0").eq(ply1).attr(".i");
 			    } else if (ply1 <= 9) {
 					console.log("Im here");
 					//location.reload();
-				$( "h4" ).html( "X is the Winner, Play Again!" );
+				$( "h3" ).html( "X is the Winner, Play Again!" );
 				$(".box1").text("");
 
 				}
@@ -29,7 +29,7 @@
 				} else if (ply2 <= 9){
 					console.log("Im here");
 				//location.reload();
-				$( "h4" ).html( "O is the Winner, Play Again" );
+				$( "h3" ).html( "O is the Winner, Play Again" );
 				$(".box0").text("");
 				}
 			}
@@ -37,7 +37,7 @@
 			if (ply1 === ply2){
 			console.log("We are both here!");
 			//location.reload();
-			$( "h4" ).html( "It's a Tie, Play again!" );
+			$( "h3" ).html( "It's a Tie, Play again!" );
 				
 			}
 				
