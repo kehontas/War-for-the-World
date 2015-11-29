@@ -27,6 +27,7 @@ youLoose.src = "http://efod.se/media/blog/explosion3.png";
 			    } else if (ply1 <= 9) {
 					console.log("Im here");
 					$(".box1").eq(ply2).text("").append(youLoose);
+					
 					//location.reload();
 					$( "h3" ).html( "Player 1 is the Winner, Play Again!" );
 					
