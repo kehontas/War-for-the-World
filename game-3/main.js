@@ -24,7 +24,7 @@ youLose.src = "http://efod.se/media/blog/explosion3.png";
 					$(".box0").eq(ply1).text("");
 			    	ply1 ++;
 			    	$(".box0").eq(ply1).append(playerOne);
-			    } else if (ply1 === 9) {
+			    } else if (ply1 >= 9) {
 					console.log("Im here");
 					$(".box1").eq(ply2).text("").append(youLose);
 					$(window).off('keypress');
@@ -38,7 +38,7 @@ youLose.src = "http://efod.se/media/blog/explosion3.png";
 					$(".box1").eq(ply2).text("");
 		 	    	ply2 ++;
 		 	    	$(".box1").eq(ply2).append(playerTwo);
-				} else if (ply2 === 9){
+				} else if (ply2 >= 9){
 					console.log("Im here");
 					$(window).off('keypress');
 
@@ -48,7 +48,7 @@ youLose.src = "http://efod.se/media/blog/explosion3.png";
 					
 }
 			 
-			if (ply1 <= 9 && ply1 === ply2){
+			if (ply1 === 9 && ply2 === 9){
 			console.log("We are both here!");
 			// location.reload();
 				$( "h3" ).html( "It's a Tie, Play again!" );
