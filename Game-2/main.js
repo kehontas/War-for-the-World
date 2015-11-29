@@ -10,6 +10,11 @@ playerOne.src = "http://cdn.mysitemyway.com/icons-watermarks/simple-black/bfa/bf
 
 var playerTwo = new Image();
 playerTwo.src = "http://cdn.mysitemyway.com/icons-watermarks/simple-black/bfa/bfa_fighter-jet/bfa_fighter-jet_simple-black_128x128.png";		
+
+var youLoose = new Image();
+youLoose.src = "http://efod.se/media/blog/explosion3.png";
+
+		
 		$(window).on("keypress", function handler(event) {
 			
 			
@@ -21,10 +26,10 @@ playerTwo.src = "http://cdn.mysitemyway.com/icons-watermarks/simple-black/bfa/bf
 			    	$(".box0").eq(ply1).append(playerOne);
 			    } else if (ply1 <= 9) {
 					console.log("Im here");
+					$(".box1").eq(ply2).text("").append(youLoose);
 					//location.reload();
 					$( "h3" ).html( "Player 1 is the Winner, Play Again!" );
-					$(".box1").text("");
-
+					
 				}
 				
 			} else if (event.which === 108) {
@@ -34,21 +39,22 @@ playerTwo.src = "http://cdn.mysitemyway.com/icons-watermarks/simple-black/bfa/bf
 		 	    	$(".box1").eq(ply2).append(playerTwo);
 				} else if (ply2 <= 9){
 					console.log("Im here");
+					$(".box0").eq(ply1).text("").append(youLoose);
 					//location.reload();
 					$( "h3" ).html( "Player 2 is the Winner, Play Again!" );
-					$(".box0").text("");
-				}
-			}
-			
-			if (ply1 === ply2){
+
+					
+
+			 
+			if (ply1 === ply2 ){
 			console.log("We are both here!");
-			//location.reload();
+			// location.reload();
 				$( "h3" ).html( "It's a Tie, Play again!" );
 				
 			}
-		
-		
-
+			
+		}
+}
 		});$("button").click(function handleClick(event){
 		location.reload();
 });

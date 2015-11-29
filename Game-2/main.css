@@ -23,6 +23,12 @@ h4 {
 
 }
 
+img {
+	margin-left: 90%;
+	
+}
+
+
 .box0 {
 	
 	background-color: 006600;
@@ -46,8 +52,8 @@ h4 {
 }
 
 button {
-	margin-top: 40px;
-	margin-right: 15px;	
+	margin-top: 10px;
+	margin-left: 80%;	
 }
 
 body {
