@@ -1,8 +1,11 @@
  $(function(){
  	console.log("Sanity Check");
  
-		var ply1 = 0;
+		//var ply1 = 0;
 		var ply2 = 0;
+		var ply1 = 0;
+
+
 		
 		$(window).on("keypress", function handler(event) {
 			
@@ -12,36 +15,35 @@
 				if (ply1 < 9) {
 					$(".box0").eq(ply1).text("");
 			    	ply1 ++;
-			    	$(".box0").eq(ply1).attr(".i");
+			    	$(".box0").eq(ply1).append("#playerOne");
 			    } else if (ply1 <= 9) {
 					console.log("Im here");
 					//location.reload();
-				$( "h3" ).html( "X is the Winner, Play Again!" );
-				$(".box1").text("");
+					$( "h3" ).html( "X is the Winner, Play Again!" );
+					$(".box1").text("");
 
 				}
 				
-			} else if (event.which === 39) {
+			} else if (event.which === 108) {
 				if (ply2 < 9) {
 					$(".box1").eq(ply2).text("");
-		 	    ply2 ++;
-		 	    $(".box1").eq(ply2).text("O");
+		 	    	ply2 ++;
+		 	    	$(".box1").eq(ply2).text("-");
 				} else if (ply2 <= 9){
 					console.log("Im here");
-				//location.reload();
-				$( "h3" ).html( "O is the Winner, Play Again" );
-				$(".box0").text("");
+					//location.reload();
+					$( "h3" ).html( "O is the Winner, Play Again!" );
+					$(".box0").text("");
 				}
 			}
 			
 			if (ply1 === ply2){
 			console.log("We are both here!");
 			//location.reload();
-			$( "h3" ).html( "It's a Tie, Play again!" );
+				$( "h3" ).html( "It's a Tie, Play again!" );
 				
 			}
-				
-		$('.box0 img').attr("src");	
+		
 		
 
 		});$("button").click(function handleClick(event){
@@ -49,7 +51,8 @@
 });
 		
 	});
-			
+
+ 
 
 
  // $("button").click(function handleClick(event){
