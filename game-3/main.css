@@ -9,17 +9,16 @@ h3 {
 	margin-top: 100px;
 	margin-left: 20px;
 	text-align: center;
-	font-size: 75px;
-	
+	font-size: 55px;
     font-family: Optima;
-   background: black;
+    background: black;
 }
 
 h4 {
 	color: white;
-   text-align: center;
-   margin-top : 200px; 
-   font-family: Optima;
+    text-align: center;
+    margin-top : 150px; 
+    font-family: Optima;
 
 }
 
@@ -28,16 +27,21 @@ img {
 	
 }
 
+#count_num{
+	font-size: 30px;
+	margin-left: 50%;
+	margin-top: 15px;
+	color: white;
+	text-align: center;
+}
 
 .box0 {
 	
 	background-color: 006600;
 	height: 30px;
-	
-	/*border: 1px solid black;*/
 	margin-left: 2px;
 	margin-right: 2px;
-	margin-bottom: 75px;	
+	margin-bottom: 20px;	
 }
 
 .box1 {
