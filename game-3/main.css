@@ -6,19 +6,21 @@ h1 {
 }
 
 h3 { 
-	color: gray;
+	color: white;
 	margin-top: 20px;
 	margin-left: 2px;
 	text-align: center;
 	font-size: 55px;
     font-family: Optima;
-    background: black;  
+   	background-color: black;
+   	opacity: .75; 
+      
 }
 
 h4 {
 	color: white;
     text-align: center;
-    margin-top : 150px; 
+    margin-top : 75px; 
     font-family: Optima;
     
 
@@ -31,10 +33,12 @@ img {
 
 #count_num{
 	font-size: 30px;
-	margin-left: 50%;
+	margin-left: 60px;
 	margin-top: 15px;
 	color: white;
-	text-align: center;
+	text-align: left;
+	background: black;
+	opacity: .5; 
 }
 
 .box0 {
@@ -58,13 +62,14 @@ img {
 }
 
 button {
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-left: 80%;	
 }
 
 body {
-     margin: 0;
-     background: url(http://www.freewallpaperfullhd.com/wp-content/uploads/2015/06/wallpapers/matrix_world_map-wallpaper-1920x1200.jpg);	 
-     background-size: 1440px 800px;
-     background-repeat:no-repeatdisplay: compact;
+	width: 100%;
+    margin: 0;
+    background: url(http://www.freewallpaperfullhd.com/wp-content/uploads/2015/06/wallpapers/matrix_world_map-wallpaper-1920x1200.jpg);	 
+    background-size: 1440px 800px;
+    background-repeat:no-repeatdisplay: compact;
     

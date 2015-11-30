@@ -12,7 +12,7 @@ var playerTwo = new Image();
 playerTwo.src = "http://cdn.mysitemyway.com/icons-watermarks/simple-black/bfa/bfa_fighter-jet/bfa_fighter-jet_simple-black_128x128.png";		
 
 var youLose = new Image();
-youLose.src = "http://efod.se/media/blog/explosion3.png";
+youLose.src = "http://flashvhtml.com/html/img/action/explosion/Explosion_Sequence_A%208.png";
 
 $(function(){
 	var timer = setInterval(function(){
@@ -23,9 +23,12 @@ $(function(){
    	clearTimeout(timer);
        return "GO!";
   }
+  $("#count_num").html(" ");
 });
-		},550);
+		},600);
+
 });		
+
 
 		$(window).on("keypress", function handler(event) {
 			 if (event.which === 97) {
