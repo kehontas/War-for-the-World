@@ -2,8 +2,8 @@
  	console.log("Sanity Check");
  
 		//var ply1 = 0;
-		var ply2 = 0;
-		var ply1 = 0;
+var ply2 = 0;
+var ply1 = 0;
 
 var playerOne = new Image();
 playerOne.src = "http://cdn.mysitemyway.com/icons-watermarks/simple-black/bfa/bfa_fighter-jet/bfa_fighter-jet_simple-black_128x128.png";
@@ -24,7 +24,7 @@ $(function(){
        return "GO!";
   }
 });
-		},650);
+		},550);
 });		
 
 		$(window).on("keypress", function handler(event) {
@@ -37,6 +37,7 @@ $(function(){
 					console.log("Im here");
 					$(".box1").eq(ply2).text("").append(youLose);
 					$(window).off('keypress');
+					$('h3').toggleClass('invisible');
 					$( "h3" ).html( "Player 1 is the Winner, Play Again!" );	
 				}
 				
@@ -50,11 +51,13 @@ $(function(){
 					$(window).off('keypress');
 
 					$(".box0").eq(ply1).text(" ").append(youLose);
+					$('h3').toggleClass('invisible');
 					$( "h3" ).html( "Player 2 is the Winner, Play Again!" );
 				}
 			 
 				if (ply1 === 9 && ply2 === 9){
 				console.log("We are both here!");
+				$('h3').toggleClass('invisible');
 				$( "h3" ).html( "It's a Tie, Play again!" );
 				$(window).off('keypress');
 			}	

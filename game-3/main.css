@@ -2,17 +2,19 @@ h1 {
 	font-size: 100px;
 	text-align: center;
 	font-family: Optima;
+
 }
 
 h3 { 
 	color: gray;
-	margin-top: 100px;
-	margin-left: 20px;
+	margin-top: 20px;
+	margin-left: 50px;
 	text-align: center;
 	font-size: 55px;
     font-family: Optima;
     background: black;
-    
+   /* visibility: hidden;*/
+   
 }
 
 h4 {
@@ -20,6 +22,7 @@ h4 {
     text-align: center;
     margin-top : 150px; 
     font-family: Optima;
+    
 
 }
 
